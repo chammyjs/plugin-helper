@@ -1,6 +1,6 @@
-const Option = require( './Option' );
+const Question = require( './Question' );
 const Plugin = require( './Plugin' );
 module.exports = {
-	Option,
+	Question,
 	Plugin
 };
