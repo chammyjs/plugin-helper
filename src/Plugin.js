@@ -6,7 +6,7 @@ class Plugin {
 	 * @return {string}  name of plugin
 	 */
 	static get name() {
-		throw new Error( 'Classes inheriting from Plugin must implement name function' );
+		throw new Error( 'Classes inheriting from Plugin must implement name' );
 	}
 
 	/**
