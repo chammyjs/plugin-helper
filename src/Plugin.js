@@ -1,12 +1,21 @@
 class Plugin {
 
 	/**
+	 * constructor - throw an Error when Plugin class is used directely
+	 */
+	constructor(){
+		if ( new.target === Plugin ) {
+			throw new Error( 'Plugin class cannot be used directly, it must be inherited' );
+		}
+	}
+
+	/**
 	 * get name - getting the name of plugin
 	 * @static
 	 * @return {string}  name of plugin
 	 */
 	static get name() {
-		throw new Error( 'Classes inheriting from Plugin must implement name' );
+		throw new Error( 'Classes inheriting from Plugin must contain name property' );
 	}
 
 	/**
