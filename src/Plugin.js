@@ -1,27 +1,41 @@
 class Plugin {
 
 	/**
-	 * constructor - description
-	 *
-	 * @param  {type} name          description
-	 * @param  {type} requires = [] description
-	 * @param  {type} options = []  description
-	 * @return {type}               description
+	 * constructor - throw an Error when Plugin class is used directely
 	 */
-	constructor( name, requires = [], options = [] ) {
-		this.name = name;
-		this.requires = requires;
-		this.options = options;
+	constructor(){
+		if ( new.target === Plugin ) {
+			throw new Error( 'Plugin class cannot be used directly, it must be inherited' );
+		}
 	}
 
 	/**
-	 * execute - description
-	 *
-	 * @return {type}  description
+	 * get name - getting the name of plugin
+	 * @static
+	 * @return {string}  name of plugin
 	 */
-	execute(){
-		// eslint-disable-next-line no-console
-		console.log( 'This plugin doesn\'t do anything useful yet' );
+	static get name() {
+		throw new Error( 'Classes inheriting from Plugin must contain name property' );
 	}
+
+	/**
+	 * configure - function for setting plugin configuration as a array of questions
+	 * @return {Object[]} Array of objects with questions
+	 */
+	configure() {
+		throw new Error( 'Classes inheriting from Plugin must implement configure function' );
+	}
+
+	/**
+	 * execute - do all the things plugin should do
+	 * @param {Object} configuration - plugin configuration from template file
+	 * @param {Object} [CLI] - Optional parameter with Interactive CLI functions
+	 * @return {undefined}
+	 */
+	execute() {
+		throw new Error( 'Classes inheriting from Plugin must implement execute function' );
+	}
+
 }
+
 module.exports = Plugin;
