@@ -1,4 +1,4 @@
-const Enum  = require( 'enumify' );
+const { Enum }  = require( 'enumify' );
 
 /**
  * Represents types of answer
