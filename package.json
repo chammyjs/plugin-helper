@@ -21,7 +21,9 @@
     "url": "https://github.com/chammyjs/plugin-helper/issues"
   },
   "homepage": "https://github.com/chammyjs/plugin-helper#readme",
-  "dependencies": {},
+  "dependencies": {
+    "enumify": "^1.0.4"
+  },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",

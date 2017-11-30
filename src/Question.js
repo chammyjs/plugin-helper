@@ -8,7 +8,7 @@ class Question {
 	 *
 	 * @param  {string} name              name of option
 	 * @param  {string} question          a question that user will receive during creation template
-	 * @param  {type} answerType          the type of answer
+	 * @param  {Type} answerType          the type of answer
 	 * @todo                              writing enum with possible types of answer
 	 * @param  {type} [defaultAnswer = ''] default answer if user doesn't write any, if not given, then emtpy string
 	 */
