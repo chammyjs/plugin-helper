@@ -3,7 +3,7 @@ const Question = require( '../../src/Question' );
 
 class CompletePlugin extends Plugin {
 
-	static get name() {
+	static get pluginName() {
 		return 'LittleSweetyKitty';
 	}
 
