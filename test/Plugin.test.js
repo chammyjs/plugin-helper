@@ -53,19 +53,19 @@ describe( 'Plugin', () => {
 
 	} );
 
-	describe( 'name', () => {
+	describe( 'pluginName', () => {
 
 		it( 'is static', () => {
-			expect( CompletePlugin.name ).to.exist;
+			expect( CompletePlugin.pluginName ).to.exist;
 		} );
 
 		it( 'is a string when overwritten', () => {
-			expect( CompletePlugin.name ).to.be.a( 'string' );
+			expect( CompletePlugin.pluginName ).to.be.a( 'string' );
 		} );
 
 		it( 'throw an Error when does not overwritten', () => {
 			expect( () => {
-				EmptyPlugin.name();
+				EmptyPlugin.pluginName();
 			} ).to.throw();
 		} );
 	} );
