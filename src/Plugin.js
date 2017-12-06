@@ -10,12 +10,12 @@ class Plugin {
 	}
 
 	/**
-	 * get name - getting the name of plugin
+	 * get pluginName - getting the name of plugin
 	 * @static
 	 * @return {string}  name of plugin
 	 */
 	static get pluginName() {
-		throw new Error( 'Classes inheriting from Plugin must contain name property' );
+		throw new Error( 'Classes inheriting from Plugin must contain pluginName property' );
 	}
 
 	/**
@@ -23,7 +23,7 @@ class Plugin {
 	 * @return {Object[]} Array of objects with questions
 	 */
 	configure() {
-		throw new Error( 'Classes inheriting from Plugin must implement configure function' );
+		throw new Error( 'Classes inheriting from Plugin must implement configure method' );
 	}
 
 	/**
@@ -33,7 +33,7 @@ class Plugin {
 	 * @return {undefined}
 	 */
 	execute() {
-		throw new Error( 'Classes inheriting from Plugin must implement execute function' );
+		throw new Error( 'Classes inheriting from Plugin must implement execute method' );
 	}
 
 }
