@@ -6,6 +6,8 @@
   "module": "dist/plugin-helper.es2015.js",
   "scripts": {
     "build": "rlb",
+    "lint": "eslint src/**/*.js test/*.js",
+    "pretest": "npm run lint",
     "test": "mocha --reporter=nyan --require babel-register"
   },
   "repository": {
