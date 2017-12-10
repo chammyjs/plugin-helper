@@ -1,4 +1,4 @@
-const { Enum }  = require( 'enumify' );
+import { Enum } from 'enumify';
 
 /**
  * Represents types of answer
@@ -15,4 +15,4 @@ class Type extends Enum {}
  */
 Type.initEnum( [ 'STRING', 'NUMBER', 	'BOOLEAN', 'ARRAY', 'OBJECT' ] );
 
-module.exports = Type;
+export default Type;

@@ -1,5 +1,5 @@
-const Plugin = require( '../../src/Plugin' );
-const Question = require( '../../src/Question' );
+import Plugin from '../../src/Plugin.js';
+import Question from '../../src/Question.js';
 
 class CompletePlugin extends Plugin {
 
@@ -15,4 +15,5 @@ class CompletePlugin extends Plugin {
 		return;
 	}
 }
-module.exports = CompletePlugin;
+
+export default CompletePlugin;

@@ -1,6 +1,5 @@
-const Question = require( './Question' );
-const Plugin = require( './Plugin' );
-module.exports = {
-	Question,
-	Plugin
-};
+import Question from './Question.js';
+import Plugin from './Plugin.js';
+
+export { Question };
+export { Plugin };

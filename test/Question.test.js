@@ -1,6 +1,7 @@
-const chai = require( 'chai' );
+import chai from 'chai';
+import Question from '../src/Question.js';
+
 const expect = chai.expect;
-const Question = require( '../src/Question' );
 
 describe( 'Question', () => {
 

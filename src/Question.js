@@ -20,4 +20,5 @@ class Question {
 		this.defaultAnswer = defaultAnswer;
 	}
 }
-module.exports = Question;
+
+export default Question;

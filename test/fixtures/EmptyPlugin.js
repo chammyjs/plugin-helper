@@ -1,5 +1,6 @@
-const Plugin = require( '../../src/Plugin' );
+import Plugin from '../../src/Plugin.js';
 
 class EmptyPlugin extends Plugin {
 }
-module.exports = EmptyPlugin;
+
+export default EmptyPlugin;

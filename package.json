@@ -2,8 +2,10 @@
   "name": "@chammy/plugin-helper",
   "version": "1.0.0",
   "description": "A helper library to chammy plugin development",
-  "main": "src/main.js",
+  "main": "dist/plugin-helper.js",
+  "module": "dist/plugin-helper.es2015.js",
   "scripts": {
+    "build": "rlb",
     "test": "mocha --reporter=nyan --require babel-register"
   },
   "repository": {
