@@ -1,6 +1,7 @@
-const chai = require( 'chai' );
+import chai from 'chai';
+import * as pluginHelper from '../src/index.js';
+
 const expect = chai.expect;
-const pluginHelper = require( '../src/main' );
 
 describe( 'pluginHelper', () => {
 

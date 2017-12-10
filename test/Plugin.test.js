@@ -1,8 +1,10 @@
-const chai = require( 'chai' );
+import chai from 'chai';
+import Plugin from '../src/Plugin.js';
+import EmptyPlugin from './fixtures/EmptyPlugin.js';
+import CompletePlugin from './fixtures/CompletePlugin.js';
+
 const expect = chai.expect;
-const Plugin = require( '../src/Plugin' );
-const EmptyPlugin = require( './fixtures/EmptyPlugin' );
-const CompletePlugin = require( './fixtures/CompletePlugin' );
+
 describe( 'Plugin', () => {
 
 	it( 'is a class', () => {

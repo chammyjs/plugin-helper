@@ -1,6 +1,7 @@
-const chai = require( 'chai' );
+import chai from 'chai';
+import Type from '../src/Type.js';
+
 const expect = chai.expect;
-const Type = require( '../src/Type' );
 
 describe( 'Type', () => {
 
