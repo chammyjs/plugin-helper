@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/chammyjs/plugin-helper.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "helper",
     "plugin",
