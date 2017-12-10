@@ -5,6 +5,7 @@
   "main": "dist/plugin-helper.js",
   "module": "dist/plugin-helper.es2015.js",
   "scripts": {
+    "build-docs": "esdoc",
     "build": "rlb",
     "lint": "eslint src/**/*.js test/*.js",
     "pretest": "npm run lint",
