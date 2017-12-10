@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Plugin#execute",
+    "filePath": "src/Plugin.js",
+    "lines": [
+      {
+        "lineNumber": 28,
+        "line": "\t/**"
+      },
+      {
+        "lineNumber": 29,
+        "line": "\t * execute - do all the things plugin should do"
+      },
+      {
+        "lineNumber": 30,
+        "line": "\t * @param {Object} configuration - plugin configuration from template file"
+      },
+      {
+        "lineNumber": 31,
+        "line": "\t * @param {Object} [CLI] - Optional parameter with Interactive CLI functions"
+      },
+      {
+        "lineNumber": 32,
+        "line": "\t * @return {undefined}"
+      },
+      {
+        "lineNumber": 33,
+        "line": "\t */"
+      },
+      {
+        "lineNumber": 34,
+        "line": "\texecute() {"
+      }
+    ],
+    "codeParams": [],
+    "docParams": [
+      "configuration",
+      "CLI"
+    ]
+  }
+]

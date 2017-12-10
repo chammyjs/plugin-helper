@@ -5,6 +5,7 @@
   "main": "dist/plugin-helper.js",
   "module": "dist/plugin-helper.es2015.js",
   "scripts": {
+    "build-docs": "esdoc",
     "build": "rlb",
     "lint": "eslint src/**/*.js test/*.js",
     "pretest": "npm run lint",
@@ -33,6 +34,8 @@
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
+    "esdoc": "^1.0.4",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^4.11.0",
     "mocha": "^4.0.1"
   }
