@@ -1,6 +1,6 @@
 {
   "name": "@chammy/plugin-helper",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A helper library to chammy plugin development",
   "main": "dist/plugin-helper.js",
   "module": "dist/plugin-helper.es2015.js",
