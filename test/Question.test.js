@@ -1,12 +1,16 @@
 import chai from 'chai';
+import AnswerType from '../src/AnswerType.js';
 import Question from '../src/Question.js';
 
 const expect = chai.expect;
 
 describe( 'Question', () => {
-
 	it( 'is a class', () => {
 		expect( new Question() ).to.be.an.instanceof( Question );
+	} );
+
+	it( 'has static property AnswerType', () => {
+		expect( Question.AnswerType ).to.equal( AnswerType );
 	} );
 
 	it( 'has name property', () => {
