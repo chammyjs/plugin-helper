@@ -3,7 +3,7 @@ import { Enum } from 'enumify';
 /**
  * Represents types of answer
  */
-class Type extends Enum {}
+class AnswerType extends Enum {}
 
 /**
  * Available types:
@@ -13,6 +13,6 @@ class Type extends Enum {}
  * - ARRAY
  * - OBJECT
  */
-Type.initEnum( [ 'STRING', 'NUMBER', 	'BOOLEAN', 'ARRAY', 'OBJECT' ] );
+AnswerType.initEnum( [ 'STRING', 'NUMBER', 	'BOOLEAN', 'ARRAY', 'OBJECT' ] );
 
-export default Type;
+export default AnswerType;

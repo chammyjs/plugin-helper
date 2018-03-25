@@ -1,7 +1,13 @@
+import AnswerType from './AnswerType.js';
+
 /**
  * Question -represents a question for the plugin CLI
  */
 class Question {
+
+	static get AnswerType() {
+		return AnswerType;
+	}
 
 	/**
 	 * constructor - Question
