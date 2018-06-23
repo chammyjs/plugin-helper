@@ -5,3 +5,5 @@
 [![devDependencies Status](https://david-dm.org/chammyjs/plugin-helper/dev-status.svg)](https://david-dm.org/chammyjs/plugin-helper?type=dev)
 [![Build Status](https://travis-ci.org/chammyjs/plugin-helper.svg?branch=master)](https://travis-ci.org/chammyjs/plugin-helper)
 [![npm (scoped)](https://img.shields.io/npm/v/@chammy/plugin-helper.svg)](https://npmjs.com/package/@chammy/plugin-helper)
+
+**:rotating_light: [WE MOVED TO GITLAB](https://gitlab.com/chammyjs/plugin-helper) :rotating_light:**
